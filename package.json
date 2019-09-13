@@ -2,6 +2,27 @@
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.19.4",
+    "nodemon": "^1.19.2",
     "sqlite3": "^4.1.0"
-  }
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node server.js"
+  },
+  "name": "node-db-challenge",
+  "description": "In this challenge, you design and build a Data Model and a RESTful API that stores data into a Relational Database.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelBaynon/node-db-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelBaynon/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/MichaelBaynon/node-db-challenge#readme"
 }
